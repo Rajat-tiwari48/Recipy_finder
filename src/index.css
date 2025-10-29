@@ -1,0 +1,9 @@
+@import "tailwindcss";
+/* @tailwind base;
+@tailwind components; */
+@tailwind utilities;
+
+/* small extra styling for modal backdrop transition */
+.modal-backdrop {
+  transition: background-color 0.15s ease-in-out;
+}
